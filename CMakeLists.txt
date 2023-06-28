@@ -625,3 +625,5 @@ if(UNIX)
     endif()
     include(CPack)
 endif()
+
+message(STATUS "FLATBUFFERS: ${CMAKE_CXX_FLAGS}")

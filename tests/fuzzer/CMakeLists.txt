@@ -10,6 +10,8 @@ project(FlatBuffersFuzzerTests)
 set(CMAKE_CXX_FLAGS
   "${CMAKE_CXX_FLAGS} -std=c++14 -Wall -pedantic -Werror -Wextra -Wno-unused-parameter -fsigned-char")
 
+message(STATUS "GS/TESTS/FUZZER: ${CMAKE_CXX_FLAGS}")
+
 set(CMAKE_CXX_FLAGS
   "${CMAKE_CXX_FLAGS} -g -fsigned-char -fno-omit-frame-pointer")
 
